@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="aos.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="home-section.css" />
+    <link rel="stylesheet" href="about-section.css" />
+    <link rel="stylesheet" href="menu-section.css" />
+    <link rel="stylesheet" href="testimonials-section.css" />
+    <link rel="stylesheet" href="team-section.css" />
+    <link rel="stylesheet" href="footer.css" />
+
+
+  </head>
+  <body>
+    <style>
+      section{
+        overflow: hidden;
+      }
+    </style>
+    <!--HEADER START-->
+    <header>
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="logo">
+            <a href="index.html">
+<img src="img/logo.png" alt="logo">
+            </a>
+            
+            
+          </div>
+
+          
+          <button type="button" class="nav-toggler">
+            <span></span>
+          </button>
+
+          <nav class="nav">
+            <ul>
+              <li class="nav-item"><a href="#home">home</a></li>
+              <li class="nav-item"><a href="#about">about</a></li>
+              <li class="nav-item"><a href="#our-menu">our menu</a></li>
+              <li class="nav-item"><a href="#testimonials">testimonials</a></li>
+              <li class="nav-item"><a href="#team">team</a></li>
+              <li class="nav-item"><a href="#footer">contact us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!--HEADER FINISH-->
+
+    <!--HOME SECTION START-->
+    <section class="home-section" id="home">
+      <div class="container">
+        <div class="row min-vh-100 align-items-center justify-content-center">
+          <div class="col-lg-12">
+            <div class="home-bg"></div>
+            <div class="home-text" data-aos="fade-up" data-aos-duration="2000">
+              <h1>Dine Out Restaurant</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloribus dolorum odit magnam voluptatem.
+              </p>
+              <a href="#our-menu" class="btn btn-default">Our Menu</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--HOME SECTION FINISH-->
+
+    <!--ABOUT SECTION START-->
+    <section class="about-section sec-padding" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="section-title text-center mb-5">
+            <h2 data-title="our story" data-aos="fade-up">about us</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="about-text" data-aos="fade-right">
+              <h3>welcome to dine out restaurant</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Placeat asperiores rem maxime explicabo cumque exercitationem
+                atque earum corporis, iste eligendi quidem sequi repellat culpa
+                ut quaerat veritatis. Suscipit, tenetur magnam!
+              </p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Ducimus accusamus facere amet minima provident ipsum harum
+                possimus voluptas! Laborum ut soluta ipsa quos eos sequi libero
+                dolores, id rem doloremque?
+              </p>
+
+              <a href="#our-menu" class="btn btn-default">check our menu</a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-img" data-aos="fade-left">
+              <div class="img-box">
+                <h3>20+ years experience</h3>
+                <img
+                  src="img/about-img.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--ABOUT SECTION FINISH-->
+
+    <!--OUR MENU START-->
+    <section class="menu-section sec-padding" id="our-menu">
+      <div class="container">
+        <div class="row">
+          <div class="section-title text-center">
+            <h2 data-title="Order Now" data-aos="fade-up">our menu</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <nav>
+              <div
+                class="nav nav-tabs border-0 justify-content-center"
+                id="nav-tab"
+                role="tablist"
+              >
+                <button
+                  class="nav-link active"
+                  id="lunch-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#lunch"
+                  type="button"
+                  role="tab"
+                  aria-controls="lunch"
+                  aria-selected="true"
+                >
+                  Lunch
+                </button>
+                <button
+                  class="nav-link"
+                  id="dinner-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#dinner"
+                  type="button"
+                  role="tab"
+                  aria-controls="dinner"
+                  aria-selected="false"
+                >
+                  Dinner
+                </button>
+                <button
+                  class="nav-link"
+                  id="drinks-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#drinks"
+                  type="button"
+                  role="tab"
+                  aria-controls="drinks"
+                  aria-selected="false"
+                >
+                  Drinks
+                </button>
+                <button
+                  class="nav-link"
+                  id="desserts-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#desserts"
+                  type="button"
+                  role="tab"
+                  aria-controls="desserts"
+                  aria-selected="false"
+                >
+                  Desserts
+                </button>
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="lunch"
+                role="tabpanel"
+                aria-labelledby="lunch-tab"
+                tabindex="0"
+              >
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="menu-item" data-aos="fade-right">
+                      <div class="menu-item-title">
+                        <img src="img/menu/1.jpg" alt="menu item thumbnail" />
+                        <h3>lunch item</h3>
+                      </div>
+                      <div class="menu-item-price">$40</div>
+                    </div>
+                    <div class="menu-item" data-aos="fade-right">
+                      <div class="menu-item-title">
+                        <img src="img/menu/1.jpg" alt="menu item thumbnail" />
+                        <h3>lunch item</h3>
+                      </div>
+                      <div class="menu-item-price">$40</div>
+                    </div>
+                    <div class="menu-item" data-aos="fade-right">
+                      <div class="menu-item-title">
+                        <img src="img/menu/1.jpg" alt="menu item thumbnail" />
+                        <h3>lunch item</h3>
+                      </div>
+                      <div class="menu-item-price">$40</div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="menu-item" data-aos="fade-left">
+                      <div class="menu-item-title">
+                        <img src="img/menu/1.jpg" alt="menu item thumbnail" />
+                        <h3>lunch item</h3>
+                      </div>
+                      <div class="menu-item-price">$40</div>
+                    </div>
+                    <div class="menu-item" data-aos="fade-left">
+                      <div class="menu-item-title">
+                        <img src="img/menu/1.jpg" alt="menu item thumbnail" />
+                        <h3>lunch item</h3>
+                      </div>
+                      <div class="menu-item-price">$40</div>
+                    </div>
+                    <div class="menu-item" data-aos="fade-left">
+                      <div class="menu-item-title">
+                        <img src="img/menu/1.jpg" alt="menu item thumbnail" />
+                        <h3>lunch item</h3>
+                      </div>
+                      <div class="menu-item-price">$40</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="tab-pane fade"
+                id="dinner"
+                role="tabpanel"
+                aria-labelledby="dinner-tab"
+                tabindex="0"
+              >
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="menu-item" data-aos="fade-right">
+                      <div class="menu-item-title">
+                        <img src="img/menu/1.jpg" alt="menu item thumbnail" />
+                        <h3>lunch item</h3>
+                      </div>
+                      <div class="menu-item-price">$40</div>
+                    </div>
+                    <div class="menu-item" data-aos="fade-right">
+                      <div class="menu-item-title">
+                        <img src="img/menu/1.jpg" alt="menu item thumbnail" />
+                        <h3>lunch item</h3>
+                      </div>
+                      <div class="menu-item-price">$40</div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="menu-item" data-aos="fade-left">
+                      <div class="menu-item-title">
+                        <img src="img/menu/1.jpg" alt="menu item thumbnail" />
+                        <h3>lunch item</h3>
+                      </div>
+                      <div class="menu-item-price">$40</div>
+                    </div>
+                    <div class="menu-item" data-aos="fade-left">
+                      <div class="menu-item-title">
+                        <img src="img/menu/1.jpg" alt="menu item thumbnail" />
+                        <h3>lunch item</h3>
+                      </div>
+                      <div class="menu-item-price">$40</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="drinks"
+                role="tabpanel"
+                aria-labelledby="drinks-tab"
+                tabindex="0"
+              >
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="menu-item">
+                      <div class="menu-item-title">
+                        <img src="img/menu/1.jpg" alt="menu item thumbnail" />
+                        <h3>lunch item</h3>
+                      </div>
+                      <div class="menu-item-price">$40</div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="menu-item">
+                      <div class="menu-item-title">
+                        <img src="img/menu/1.jpg" alt="menu item thumbnail" />
+                        <h3>lunch item</h3>
+                      </div>
+                      <div class="menu-item-price">$40</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="desserts"
+                role="tabpanel"
+                aria-labelledby="desserts-tab"
+                tabindex="0"
+              >
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="menu-item">
+                      <div class="menu-item-title">
+                        <img src="img/menu/1.jpg" alt="menu item thumbnail" />
+                        <h3>lunch item</h3>
+                      </div>
+                      <div class="menu-item-price">$40</div>
+                    </div>
+                    <div class="menu-item">
+                      <div class="menu-item-title">
+                        <img src="img/menu/1.jpg" alt="menu item thumbnail" />
+                        <h3>lunch item</h3>
+                      </div>
+                      <div class="menu-item-price">$40</div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="menu-item">
+                      <div class="menu-item-title">
+                        <img src="img/menu/1.jpg" alt="menu item thumbnail" />
+                        <h3>lunch item</h3>
+                      </div>
+                      <div class="menu-item-price">$40</div>
+                    </div>
+                    <div class="menu-item">
+                      <div class="menu-item-title">
+                        <img src="img/menu/1.jpg" alt="menu item thumbnail" />
+                        <h3>lunch item</h3>
+                      </div>
+                      <div class="menu-item-price">$40</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--OUR MENU FINISH-->
+
+
+
+    <!--TESTIMONIALS START-->
+    <section class="testimonials-section sec-padding" id="testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="section-title text-center">
+            <h2 data-title="Testimonials" data-aos="fade-up">some feedbacks</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="testimonials-box" data-aos="zoom-in">
+              <div class="d-flex align-items-center justify-content-between">
+                <div class="testimonials-title">
+                  <h3>Zeynep Bora</h3>
+                  <span>Front End Developer<span>
+                </div>
+                <img src="img/testimonials/1.jpg" alt="team 1" />
+              </div>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae
+                ab aut assumenda dolorem minima veniam nihil explicabo iusto
+                facere ea eum dicta vero laboriosam, ipsa at delectus ducimus
+                totam blanditiis.
+              </p>
+              <div class="ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4"><div class="testimonials-box" data-aos="zoom-in">
+              <div class="d-flex align-items-center justify-content-between">
+                <div class="testimonials-title">
+                  <h3>Zeynep Bora</h3>
+                  <span>Front End Developer<span>
+                </div>
+                <img src="img/testimonials/2.jpg" alt="team 1" />
+              </div>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae
+                ab aut assumenda dolorem minima veniam nihil explicabo iusto
+                facere ea eum dicta vero laboriosam, ipsa at delectus ducimus
+                totam blanditiis.
+              </p>
+              <div class="ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div></div>
+          <div class="col-lg-4">
+            <div class="testimonials-box" data-aos="zoom-in">
+              <div class="test-author d-flex align-items-center justify-content-between">
+                <div class="testimonials-title">
+                  <h3>Zeynep Bora</h3>
+                  <span>Front End Developer<span>
+                </div>
+                <img src="img/testimonials/3.jpg" alt="team 1" />
+              </div>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae
+                ab aut assumenda dolorem minima veniam nihil explicabo iusto
+                facere ea eum dicta vero laboriosam, ipsa at delectus ducimus
+                totam blanditiis.
+              </p>
+              <div class="ratings">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div></div>
+        </div>
+      </div>
+    </section>
+    <!--TESTIMONIALS FINISH-->
+
+    <!--TEAM START-->
+    <section class="team-section sec-padding" id="team">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2 data-title="Team" data-aos="fade-up">our chefs</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+         <div class="chef-box"data-aos="fade-up"data-aos-duration="1000">
+        
+          <img src="img/team/1.jpg" alt="chef 1">
+       
+        <div class="chef-content">
+          <h3>zeynep bora</h3>
+          <span>head chef</span>
+           </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4">  
+         <div class="chef-box "data-aos="fade-up"data-aos-duration="1000">
+        
+          <img src="img/team/2.jpg" alt="chef 2">
+       
+        <div class="chef-content">
+          <h3>zeynep bora</h3>
+          <span>head chef</span>
+           </div>
+        
+      </div>
+      </div>
+      <div class="col-lg-4"> 
+         <div class="chef-box "data-aos="fade-up" data-aos-duration="1000">
+        
+          <img src="img/team/3.jpg" alt="chef 3">
+       
+        <div class="chef-content">
+          <h3>zeynep bora</h3>
+          <span>head chef</span>
+           </div>
+       
+      </div></div>
+    </div>
+  </div>
+    </section>
+    <!--TEAM FINISH-->
+
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="footer-item"data-aos="fade-up"data-aos-duration="1000">
+              <h3>our location</h3>
+              <p>xyz Street, Sector-12, <br>New Delhi - 000 ****</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="footer-item"data-aos="fade-up"data-aos-duration="1000">
+              <h3>opening hours</h3>
+              <p>Monday to Sunday <br> 9:00 AM - 10:00 PM</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="footer-item"data-aos="fade-up"data-aos-duration="1000">
+              <h3>contact us</h3>
+              <p>91 9654 293 ***</p>
+              <p>info@gmail.com</p>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+               
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="copyright">
+            &copy; 2023 - Redesigned by Zeynep Bora
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="aos.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

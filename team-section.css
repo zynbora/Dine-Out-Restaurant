@@ -1,0 +1,48 @@
+.team-section {
+  background-color: var(--dark);
+  padding-bottom: 120px;
+}
+
+.chef-content {
+  margin: auto;
+  text-align: center;
+  max-width: 250px;
+  right: 0;
+  position: absolute;
+  bottom: -28px;
+  left: 0;
+  background-color: var(--dark-light);
+  border-radius: 8px;
+  padding: 15px;
+  transition: all 0.3s ease;
+  pointer-events: none;
+  /*
+  top:0;
+  bottom:0;
+  right:30px;
+  left:30px;
+  transform: translateY(50%);
+  */
+}
+.chef-box:hover .chef-content {
+  transform: translateY(-15px);
+  background-color: var(--main-color);
+}
+.chef-box {
+  position: relative;
+  width: 100%;
+  margin: 30px 0px;
+}
+.chef-box img {
+  width: 100%;
+  border-radius: 8px;
+}
+.chef-content h3 {
+  font-size: 18px;
+  text-transform: capitalize;
+  margin: 0 0 10px;
+}
+.chef-content span {
+  text-transform: capitalize;
+  color: var(--white);
+}

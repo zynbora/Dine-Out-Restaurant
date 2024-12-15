@@ -1,0 +1,75 @@
+.about-section {
+  background-color: var(--dark-light);
+}
+.sec-padding {
+  padding: 80px 0px;
+}
+.section-title {
+  width: 100%;
+  padding: 0px 15px;
+  text-align: center;
+}
+.section-title h2 {
+  font-size: 35px;
+  text-transform: capitalize;
+}
+.section-title h2::before {
+  content: attr(data-title);
+  display: block;
+  font-size: 24px;
+  color: var(--main-color);
+  font-family: "dancing script", cursive;
+}
+.about-text h3 {
+  font-size: 30px;
+  text-transform: capitalize;
+  margin: 0 0 15px;
+}
+.about-text p {
+  margin: 0 0 15px;
+  color: var(--white);
+}
+.about-text .btn {
+  margin: 15px 0 0;
+}
+
+.about-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.about-img .img-box h3 {
+  position: absolute;
+  text-transform: capitalize;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  max-width: 250px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-family: "dancing script", cursive;
+  color: var(--dark);
+  font-weight: bold;
+}
+.about-img .img-box {
+  position: relative;
+}
+.about-img .img-box::before {
+  content: "";
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border: 3px solid var(--main-color);
+  left: calc(50% - 50px);
+  top: calc(50% - 50px);
+  animation: spin01 10s linear infinite;
+}
+@keyframes spin01 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

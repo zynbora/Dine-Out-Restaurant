@@ -1,0 +1,108 @@
+h1 {
+  font-weight: 700;
+  color: var(--white);
+}
+h2 {
+  font-weight: 600;
+  color: var(--white);
+}
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  color: var(--white);
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}
+.home-section {
+  position: relative; /*home-bg den sonra yazıldı*/
+  overflow: hidden; /*animasyon keyframeden sonra yazıldı*/
+}
+.home-section .min-vh-100 {
+  padding: 100px 0px;
+}
+.home-text {
+  padding: 0px 15px;
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  margin: auto;
+}
+
+.home-text h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
+  line-height: 75px;
+  margin: 0 0 5px;
+}
+.home-text p {
+  margin: 0 0 30px;
+  color: var(--white);
+}
+.home-section .home-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -2;
+  background-image: url(img/home-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  animation: zoomInOut 20s ease infinite;
+}
+.home-section::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.8842130602240896) 45%,
+    rgba(0, 0, 0, 0.39401698179271705) 100%
+  );
+
+  /*background-color: #000;
+  opacity: 0.7;
+*/
+  z-index: -1;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: transparent;
+  border-radius: 30px;
+  text-transform: capitalize;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: inherit;
+  color: var(--main-color);
+  line-height: 1.5;
+  user-select: none;
+  border: none;
+}
+.btn-default {
+  border: 2px solid var(--main-color);
+}
+.btn-default:hover {
+  color: var(--white);
+  background-color: var(--main-color);
+}
+@keyframes zoomInOut {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
